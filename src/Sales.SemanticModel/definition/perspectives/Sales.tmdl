@@ -1,0 +1,76 @@
+perspective Sales
+
+	perspectiveTable Sales
+
+		perspectiveMeasure '# Customers with Sales'
+
+		perspectiveMeasure 'Sales Quantity'
+
+		perspectiveMeasure 'Sales Amount'
+
+		perspectiveMeasure 'Sales Amount LY'
+
+		perspectiveMeasure 'Sales Amount Daily Average'
+
+		perspectiveMeasure Margin
+
+		perspectiveMeasure '# Sales'
+
+		perspectiveMeasure 'Sales Amount 12 Month Average'
+
+		perspectiveMeasure 'Sales Amount 6 Month Average'
+
+		perspectiveColumn 'Order Number'
+
+		perspectiveColumn 'Line Number'
+
+		perspectiveColumn 'Order Date'
+
+		perspectiveColumn 'Delivery Date'
+
+		perspectiveColumn 'Customer Key'
+
+		perspectiveColumn 'Store Key'
+
+		perspectiveColumn 'Product Key'
+
+		perspectiveColumn 'Unit Cost'
+
+		perspectiveColumn 'Currency Code'
+
+		perspectiveColumn 'Exchange Rate'
+
+		perspectiveColumn Environment
+
+	perspectiveTable Product
+
+		perspectiveMeasure '# Products'
+
+		perspectiveColumn Product
+
+		perspectiveColumn 'Product Key'
+
+		perspectiveColumn 'Product Code'
+
+		perspectiveColumn Manufacturer
+
+		perspectiveColumn Brand
+
+		perspectiveColumn Color
+
+		perspectiveColumn 'Weight Unit Measure'
+
+		perspectiveColumn Weight
+
+		perspectiveColumn 'Unit Cost'
+
+		perspectiveColumn 'Unit Price'
+
+		perspectiveColumn 'Subcategory Code'
+
+		perspectiveColumn Subcategory
+
+		perspectiveColumn 'Category Code'
+
+		perspectiveColumn Category
+
