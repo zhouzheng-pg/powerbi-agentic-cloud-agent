@@ -43,21 +43,14 @@ This template combines three pieces:
 
     > Analyze the naming conventions of the Sales semantic model and propose changes
 
-    Then assign the issue to the coding agent:
+    Then assign the issue to the coding agent.
 
-    ![Assign issue to coding agent](media/gh-assign-issue-agent.png)
+4. **Review the pull request** - Copilot creates a branch, executes the task, and opens a PR for your review.
 
-4. **Review the pull request** - Copilot creates a branch, executes the task, and opens a PR for your review:
+    You can open the Copilot session log to verify that the [skills](.github/skills/) and [Power BI Modeling MCP](https://github.com/microsoft/powerbi-modeling-mcp) were loaded successfully.
 
-    ![Copilot PR review](media/gh-copilot-pr-review.png)
+    The agent follows the instructions defined in the skills, so the output conforms to your team's standards.
 
-    You can open the Copilot session log to verify that the [skills](.github/skills/) and [Power BI Modeling MCP](https://github.com/microsoft/powerbi-modeling-mcp) were loaded successfully:
-
-    ![Copilot session](media/gh-copilot-session.png)
-
-    The agent follows the instructions defined in the skills, so the output conforms to your team's standards:
-
-    ![PR code review](media/gh-pr-review.png)
 
 > [!TIP]
 > - Try creating issues from your smartphone - you can delegate tasks to the coding agent from anywhere and focus on reviewing the results.
@@ -70,6 +63,7 @@ This template combines three pieces:
 |-------|-------------|
 | [semantic-model-documentation](.github/skills/semantic-model-documentation/SKILL.md) | Generates professional Markdown documentation including table relationships, measures, RLS rules, and data sources. |
 | [standardize-naming-conventions](.github/skills/standardize-naming-conventions/SKILL.md) | Audits and fixes naming conventions across tables, columns, measures, and display folders. |
+| [semantic-model-authoring](.github/skills/semantic-model-authoring/SKILL.md) | Provides guidance on authoring and modifying Power BI semantic models in TMDL format. |
 
 You can add your own skills to `.github/skills/` to extend the agent's capabilities for your team's workflows.
 
